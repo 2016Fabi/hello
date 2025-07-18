@@ -1,0 +1,14 @@
+## esse codigo so pode ser usado no mac e linux 
+#include <cs50.h>
+#include <stdio.h>
+int main(void)
+{
+    string answer = get_string("What's your name? ");
+    printf("hello, %s" ,answer);
+}
+
+## usando esse comando no terminal
+
+code hello.c
+make hello
+./hello
