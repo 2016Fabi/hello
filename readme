@@ -12,3 +12,6 @@ int main(void)
 code hello.c
 make hello
 ./hello
+
+check50 cs50/problems/hello
+
