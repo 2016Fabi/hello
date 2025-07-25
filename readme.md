@@ -1,12 +1,13 @@
 # Esse codigo so pode ser usado no mac e linux 
 
 ## hello.c
-#include <cs50.h>
-#include <stdio.h>
+//#include <cs50.h>
+//#include <stdio.h>
 int main(void)
 {
-    string answer = get_string("What's your name? ");
-    printf("hello, %s\n" ,answer);
+   // string answer = get_string("What's your name? ");
+   //printf("hello, %s\n" ,answer);
+   printf("hello, world\n");
 }
 
 # Usando esse comando no terminal
@@ -23,3 +24,13 @@ cd lecture/- para mudar os diretórios em nosso terminal,
 rmdir lecture/- serve para remover a pasta 
 
 ## additional.c
+#include <cs50.h>
+#include <stdio.h>
+int main(void)
+{
+    int x = get_int("x: ");
+
+    int y = get_int("y: ");
+
+    printf("%i\n", x + y);
+}
