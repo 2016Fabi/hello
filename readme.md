@@ -10,16 +10,16 @@ int main(void)
 }
 
 # Usando esse comando no terminal
-code hello.c
-make hello
-./hello
-check50 cs50/problems/hello
-ls- para ver a lista de arquivos e pastas na pasta atual
-rm hello- y(sim) ou n(nao) - solicitara um confirmacao e podemos responder
-mv hello.c goodbye.c- renomeamos o nosso arquivo ola.c com o nome goodbye.c
-mkdir lecture
-mv hello.c lecture/- para colocar o arquivo dentro dessa pasta
-cd lecture/- para mudar os diretórios em nosso terminal
+code hello.c,
+make hello,
+./hello,
+check50 cs50/problems/hello,
+ls- para ver a lista de arquivos e pastas na pasta atual,
+rm hello- y(sim) ou n(nao) - solicitara um confirmacao e podemos responder,
+mv hello.c goodbye.c- renomeamos o nosso arquivo ola.c com o nome goodbye.c,
+mkdir lecture,
+mv hello.c lecture/- para colocar o arquivo dentro dessa pasta,
+cd lecture/- para mudar os diretórios em nosso terminal,
 rmdir lecture/- serve para remover a pasta 
 
 ## additional.c
