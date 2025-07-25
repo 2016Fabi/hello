@@ -1,6 +1,6 @@
-***esse codigo so pode ser usado no mac e linux 
+# Esse codigo so pode ser usado no mac e linux 
 
-**hello.c
+## hello.c
 #include <cs50.h>
 #include <stdio.h>
 int main(void)
@@ -9,7 +9,7 @@ int main(void)
     printf("hello, %s\n" ,answer);
 }
 
-**usando esse comando no terminal
+# Usando esse comando no terminal
 code hello.c
 make hello
 ./hello
@@ -22,4 +22,4 @@ mv hello.c lecture/- para colocar o arquivo dentro dessa pasta
 cd lecture/- para mudar os diretórios em nosso terminal
 rmdir lecture/- serve para remover a pasta 
 
-**additional.c
+## additional.c
