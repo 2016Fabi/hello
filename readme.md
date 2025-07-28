@@ -58,3 +58,23 @@ int main(void)
     printf("%li\n", x + y);
 
 }
+
+## truncation.c
+#include <cs50.h>
+
+#include <stdio.h>
+
+int main(void)
+
+{
+
+    //get numbers from user
+    int x = get_int("x: ");
+    int y = get_int("y: ");
+    //divide x by y
+    //float z = (float) x / (float) y;
+    float z = x / y;
+    //printf("%f\n", z);
+    printf("%i\n", x + y);
+    
+}
